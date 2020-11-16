@@ -1,0 +1,22 @@
+{
+    "name": "lianhua/always-utf8",
+    "description": "A simple library to convert the charset of any file to UTF8",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Camille Nevermind",
+            "email": "admin@lianhua.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lianhua\\AlwaysUTF8\\": "src/"
+        }
+    }
+}
